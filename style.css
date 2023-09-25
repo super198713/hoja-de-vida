@@ -1,0 +1,89 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,900;1,400&family=Phudu:wght@400;600;700;800;900&family=Ubuntu:wght@300;400;700&display=swap')
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.empresas{
+    background-color:  #9eb3c4 ;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+aside{
+    background-color:  #827467 ;
+    color: antiquewhite;
+}
+
+.imagen{
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+   
+}
+
+img{
+    box-shadow: 0px 0px 10px black;
+    height: 240px;
+    width: 225px;
+    border-radius: 100%;
+}
+
+
+.parrafo_aside{
+    display: flex;
+    justify-content: center;
+}
+
+.titulos_aside{
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    display: block;
+    gap: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+
+  .contact-email {
+    
+    text-decoration: none;
+  }
+
+  
